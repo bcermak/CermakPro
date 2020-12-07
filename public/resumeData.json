@@ -102,35 +102,42 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Brews N Dad Jokes",
+        "category":"",
+        "image":"brewsndadjokes.jpg",
+        "url":"https://bcermak.github.io/BrewsNDadJokes/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Weather the Weather",
+        "category":"",
+        "image":"weatherapp.jpg",
+        "url":"https://bcermak.github.io/Weather-Dashboard/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Keep Austin Social",
+        "category":"",
+        "image":"keepaustinsocial.jpg",
+        "url":"https://keepaustinsocial.herokuapp.com/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Progessive Budget Tracker",
+        "category":"",
+        "image":"progbudget.jpg",
+        "url":"https://budgettrackerrrr.herokuapp.com/"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"React Employee Directory",
+        "category":"",
+        "image":"reactempdir.jpg",
+        "url":"https://budgettrackerrrr.herokuapp.com/"
+      },
+      {
+        "title":"Team Profiles Generator (CLI)",
+        "category":"",
+        "image":"teamprofiles.jpg",
+        "url":"https://github.com/bcermak/Team-Profiles"
       }
+     
     ]
   }
 }
