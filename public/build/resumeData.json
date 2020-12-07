@@ -1,0 +1,136 @@
+{
+  "main": {
+    "name":"Brandon Cermak",
+    "description":"Software Engineer",
+    "image":"profilepic.jpg",
+    "bio":"Brandon is a web developer with an extensive background in operational management. A willingness to do any task to get the job done allowed Brandon to rise to the top of the ranks in hotel management, and this willingness will allow him to thrive in any role at your company.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "cermakprofessional@gmail.com",
+    "phone": "512-659-1685",
+    "github":"https://github.com/bcermak",
+    "resumelink":"https://drive.google.com/file/d/1UXcb3RkGwaURCepCkIGigpU1LpcrtxOR/view?usp=sharing",
+    "address":{
+      "city":"Austin",
+      "state":"Texas",
+      "zip": "Y'all"
+    },
+    "website": "www.brandoncermak.com",
+    "resumedownload":"https://drive.google.com/file/d/1UXcb3RkGwaURCepCkIGigpU1LpcrtxOR/view?usp=sharing",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/brandon-cermak-ab4219121/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"resume1",
+        "url":"https://drive.google.com/file/d/1UXcb3RkGwaURCepCkIGigpU1LpcrtxOR/view?usp=sharing",
+        "className":"fa fa-google-drive"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Concordia University, St. Paul",
+        "degree":"Bachelors in Marketing",
+        "graduated":"May 2017",
+        "description":"Gained a wealth of knowledge regarding email, social, event, SEO, and targeted marketing"
+      },
+      {
+        "school":"UT Austin",
+        "degree":"Coding Bootcamp",
+        "graduated":"December 2020",
+        "description":"A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
+      }
+    ],
+    "work":[
+      {
+        "company":"Hotels for Hope",
+        "title":"Client Success Manager",
+        "years":"January 2019 – July 2020",
+        "description":"Managed full-scope housing needs for large events such as ACL, Barrett Jackson Auctions, or F1 Racing. This includes everything from negotiating contracts to individual reservation management. Also oversaw first fully-managed international contract (F1 Dutch GP), and helped to develop upgraded SOPs/Training Materials for company post-acquisition"
+      },
+      {
+        "company":"Chariot Transit Inc.",
+        "title":"Enterprise Sales Development",
+        "years":"July 2017 - January 2019",
+        "description":"Managed lead-generation/sales development process for Ford-owned start-up, Chariot. Worked hand-in-hand with the Account Executive for my region to establish a smooth sales process for future clients. Successfully garnished and converted leads from fortune 500 companies in a brand new market."
+      },
+      {
+        "company":"Hyatt Place Austin Airport",
+        "title":"Opening Assistant General Manager",
+        "years":"June 2016 – August 2017",
+        "description":"Opening AGM for brand new airport hotel. Oversaw operations from pre-construction through opening. Hired and trained over 30 associates, successfully built/opened hotel that exceeded Hyatt brand-standards, and personally managed our first account that exceeded $1 million of annual revenue (United Airlines)."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Javascript",
+        "level":"95%"
+      },
+      {
+        "name":"CSS",
+        "level":"95%"
+      },
+      {
+        "name":"Jquery",
+        "level":"95%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"95%"
+      },
+
+      {
+        "name":"NodeJS",
+        "level":"95%"
+      },
+
+      {
+        "name":"Firebase",
+        "level":"95%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
