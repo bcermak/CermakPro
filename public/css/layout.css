@@ -1020,5 +1020,7 @@ footer .social-links li:first-child { margin-left: 0; }
    background-color: #1abc9c !important;
 }
 .github-btn{
+   height: 54px;
+   width: 158.16px;
    background-color: #34495e !important;
 }
