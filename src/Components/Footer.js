@@ -15,11 +15,13 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
            <ul className="social-links">
-              {networks}
+              <a ref='https://www.github.com/bcermak' target="_blank" className="fa fa-github" style={{marginRight: 10}}></a>
+              <a href='https://www.linkedin.com/in/brandon-cermak-ab4219121/' target="_blank" className="fa fa-linkedin" style={{marginRight: 10}}></a>
+              <a href='https://drive.google.com/file/d/1UXcb3RkGwaURCepCkIGigpU1LpcrtxOR/view?usp=sharing' target="_blank" className="fab fa-google-drive"></a>
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2017 Nordic Giant</li>
+              <li>&copy; CermakPro</li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
            </ul>
 

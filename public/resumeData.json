@@ -3,7 +3,7 @@
     "name":"Brandon Cermak",
     "description":"Software Engineer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Brandon is a web developer with an extensive background in operational management. A willingness to do any task to get the job done allowed Brandon to rise to the top of the ranks in hotel management, and this willingness will allow him to thrive in any role at your company.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "cermakprofessional@gmail.com",
     "phone": "512-659-1685",
@@ -18,29 +18,19 @@
     "resumedownload":"https://drive.google.com/file/d/1UXcb3RkGwaURCepCkIGigpU1LpcrtxOR/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/brandon-cermak-ab4219121/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
         "url":"https://github.com/nordicgiant2/react-nice-resume",
         "className":"fa fa-github"
+      },
+      {
+        "name":"resume1",
+        "url":"https://drive.google.com/file/d/1UXcb3RkGwaURCepCkIGigpU1LpcrtxOR/view?usp=sharing",
+        "className":"fa fa-google-drive"
       }
     ]
   },

@@ -26,12 +26,13 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>{bio}</p>
+            <p>2020 has been a year of surprises for us all. Brandon seized the chance to turn these surprises into growth and is excited to make the long-awaited leap into a new career!</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
+                     <span style={{fontWeight:'strong'}}>{name}</span><br />
+						   <span>
 						         {city} {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
