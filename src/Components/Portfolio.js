@@ -20,11 +20,13 @@ class Portfolio extends Component {
                 <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/budgettracker"> GitHub </a> || <a style={{fontWeight: 'bold'}} href = "https://budgettrackerrrr.herokuapp.com"> Deployed </a></div>
                 <Image style ={{marginTop:'8px', border:'solid black'}} src={ProgressiveBudget} className ="primaryPic1"></Image>
             </div>
+            <br></br>
             <div className= "col 6">
                 <div style={{fontWeight: 'bold', fontSize: '25px'}}> React Employee Directory </div>
                 <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/ReactEmployeeDirectory"> GitHub </a> || <a style={{fontWeight: 'bold'}} href = "https://user-directoryy.herokuapp.com/"> Deployed </a></div>
                 <Image style ={{marginTop:'8px', border:'solid black'}} src={ReactEmployeeDirectory} className ="primaryPic1"></Image>
-            </div>    
+            </div>
+            <br></br>    
           </div>
             <div className ="row projects">
                 <div className="col 6">
@@ -32,18 +34,21 @@ class Portfolio extends Component {
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/Weather-Dashboard"> GitHub </a> || <a style={{ fontWeight: 'bold'}} href = "https://bcermak.github.io/Weather-Dashboard/"> Weather Dashboard </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={WeatherApp} className ="primaryPic1"></Image>
                 </div>
+                <br></br>
                 <div className="col 6">
                     <div style={{fontWeight: 'bold',fontSize: '25px'}}> BrewsNDadJokes </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/BrewsNDadJokes"> GitHub </a> || <a style={{fontWeight: 'bold'}} href = "https://bcermak.github.io/BrewsNDadJokes/"> Deployed </a></div>
                     <Image style ={{ marginBottom:'8px', border:'solid black'}} src={BrewsNDadJokes} className ="primaryPic1"></Image>
                 </div>
+                <br></br>
             </div>
             <div id = "projectsBottom" className ="row projects">
                 <div className= "col 6">
                     <div style={{fontWeight: 'bold',fontSize: '25px'}}>Team Profiles Generator (CLI) </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/Team-Profiles"> GitHub </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={TeamProfiles} className ="primaryPic1"></Image>
-                </div>  
+                </div>
+                <br></br>  
                 <div className="col 6">
                     <div style={{fontWeight: 'bold',fontSize: '25px'}}> Keep Austin Social </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/KeepAustinSocial"> GitHub </a> || <a style={{fontWeight: 'bold'}} href = "https://keepaustinsocial.herokuapp.com/"> Deployed </a></div>
