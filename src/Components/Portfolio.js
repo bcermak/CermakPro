@@ -51,14 +51,14 @@ class Portfolio extends Component {
                     <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}>Team Profiles Generator (CLI) </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/Team-Profiles"> Repo </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={TeamProfiles} className ="primaryPic1"></Image>
-                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, JQuery</div>
+                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, Node.js, Inquirer, FS </div>
                 </div>
                 <br></br>  
                 <div style={{backgroundColor:' #ffa571', paddingTop:'25px', paddingBottom:'25px'}} className="col 6">
                     <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}> Keep Austin Social </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/KeepAustinSocial"> Repo </a> || <a style={{fontWeight: 'bold'}} href = "https://keepaustinsocial.herokuapp.com/"> Deployed </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={KeepAustinSocial}></Image>
-                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, JQuery</div>
+                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, JQuery, Bootstrap, Passport, Express, Moment</div>
                 </div>
             </div>
           </div>  
