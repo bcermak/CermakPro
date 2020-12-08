@@ -120,24 +120,23 @@
         "url":"https://keepaustinsocial.herokuapp.com/"
       },
       {
-        "title":"Progessive Budget Tracker",
+        "title":"Team Profiles Generator (CLI)",
         "category":"",
-        "image":"progbudget.jpg",
-        "url":"https://budgettrackerrrr.herokuapp.com/"
+        "image":"teamprofiles.jpg",
+        "url":"https://github.com/bcermak/Team-Profiles"
       },
       {
         "title":"React Employee Directory",
         "category":"",
         "image":"reactempdir.jpg",
-        "url":"https://budgettrackerrrr.herokuapp.com/"
+        "url":"https://user-directoryy.herokuapp.com/"
       },
       {
-        "title":"Team Profiles Generator (CLI)",
+        "title":"Progessive Budget Tracker",
         "category":"",
-        "image":"teamprofiles.jpg",
-        "url":"https://github.com/bcermak/Team-Profiles"
+        "image":"budgettracker.jpg",
+        "url":"https://budgettrackerrrr.herokuapp.com/"
       }
-     
     ]
   }
 }
