@@ -671,7 +671,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: rgb(255, 255, 255);
 }
 
 /*	Blockquotes */
@@ -887,7 +887,7 @@ call-to-action .button {
    width: 65%;
    margin-left: 26%;
 }
-#message-warning { color: #D72828; }
+#message-warning { color: #a83723; }
 #message-success { color: #0762f9; }
 
 #message-warning i,
@@ -955,7 +955,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #1ab147;
 }
 footer .copyright  li:first-child:before {
     display: none;

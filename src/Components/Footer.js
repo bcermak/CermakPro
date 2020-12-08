@@ -15,7 +15,7 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
            <ul className="social-links">
-              <a ref='https://www.github.com/bcermak' target="_blank" className="fa fa-github" style={{marginRight: 10}}></a>
+              <a href='https://www.github.com/bcermak' target="_blank" className="fa fa-github" style={{marginRight: 10}}></a>
               <a href='https://www.linkedin.com/in/brandon-cermak-ab4219121/' target="_blank" className="fa fa-linkedin" style={{marginRight: 10}}></a>
               <a href='https://drive.google.com/file/d/1UXcb3RkGwaURCepCkIGigpU1LpcrtxOR/view?usp=sharing' target="_blank" className="fab fa-google-drive"></a>
            </ul>

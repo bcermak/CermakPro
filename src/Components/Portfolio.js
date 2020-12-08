@@ -15,44 +15,50 @@ class Portfolio extends Component {
         <div style={{display: 'block'}}className= "container">
           <div className ="row projects">
             <h2 style={{paddingBottom:'25px'}}>PROJECTS <i class="fas fa-toolbox"></i> <i class="fas fa-screwdriver"></i></h2>
-            <div className= "col 6">
-                <div style={{fontWeight: 'bold',fontSize: '25px'}}>Progressive Budget Tracker</div>
-                <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/budgettracker"> Repo </a> || <a style={{fontWeight: 'bold'}} href = "https://budgettrackerrrr.herokuapp.com"> Deployed </a></div>
-                <Image style ={{marginTop:'8px', border:'solid black'}} src={ProgressiveBudget} className ="primaryPic1"></Image>
+            <div style={{ backgroundColor:' #ff7f68', paddingTop:'25px', paddingBottom:'25px'}} className= "col 6">
+              <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}>Progressive Budget Tracker</div>
+              <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/budgettracker"> Repo </a> || <a style={{fontWeight: 'bold'}} href = "https://budgettrackerrrr.herokuapp.com"> Deployed </a></div>
+              <Image style ={{marginTop:'8px', border:'solid black'}} src={ProgressiveBudget} className ="primaryPic1"></Image>
+              <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, Node.js, Express.js, MongoDB, Mongoose, IndexedDB </div>
             </div>
             <br></br>
-            <div className= "col 6">
-                <div style={{fontWeight: 'bold', fontSize: '25px'}}> React Employee Directory </div>
+            <div style={{backgroundColor:'aqua', paddingTop:'25px', paddingBottom:'25px'}} className= "col 6">
+                <div style={{color:'black', fontWeight: 'bold', fontSize: '25px'}}> React Employee Directory </div>
                 <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/ReactEmployeeDirectory"> Repo </a> || <a style={{fontWeight: 'bold'}} href = "https://user-directoryy.herokuapp.com/"> Deployed </a></div>
                 <Image style ={{marginTop:'8px', border:'solid black'}} src={ReactEmployeeDirectory} className ="primaryPic1"></Image>
+                <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, React.js, Node.js, Reactstrap</div>
             </div>
             <br></br>    
           </div>
             <div className ="row projects">
-                <div className="col 6">
-                    <div style={{fontWeight: 'bold',fontSize: '25px'}}> Weather the Weather (WTW) </div>
-                    <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/Weather-Dashboard"> Repo </a> || <a style={{ fontWeight: 'bold'}} href = "https://bcermak.github.io/Weather-Dashboard/"> Weather Dashboard </a></div>
+                <div style={{backgroundColor:'#79ffa1', paddingTop:'25px', paddingBottom:'25px'}} className="col 6">
+                    <div style={{color:'black', fontWeight: 'strong',fontSize: '25px'}}> Weather the Weather (WTW) </div>
+                    <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/Weather-Dashboard"> Repo </a> || <a style={{ fontWeight: 'bold'}} href = "https://bcermak.github.io/Weather-Dashboard/"> Deployed </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={WeatherApp} className ="primaryPic1"></Image>
+                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, JQuery</div>
                 </div>
                 <br></br>
-                <div className="col 6">
-                    <div style={{fontWeight: 'bold',fontSize: '25px'}}> BrewsNDadJokes </div>
+                <div style={{backgroundColor:'#d271ff', paddingTop:'25px', paddingBottom:'25px'}} className="col 6">
+                    <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}> BrewsNDadJokes </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/BrewsNDadJokes"> Repo </a> || <a style={{fontWeight: 'bold'}} href = "https://bcermak.github.io/BrewsNDadJokes/"> Deployed </a></div>
                     <Image style ={{ marginBottom:'8px', border:'solid black'}} src={BrewsNDadJokes} className ="primaryPic1"></Image>
+                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML5, CSS, Javascript, JQuery, Materialize, APIs </div>
                 </div>
                 <br></br>
             </div>
             <div id = "projectsBottom" className ="row projects">
-                <div className= "col 6">
-                    <div style={{fontWeight: 'bold',fontSize: '25px'}}>Team Profiles Generator (CLI) </div>
+                <div style={{backgroundColor:'#eaff71', paddingTop:'25px', paddingBottom:'25px'}} className= "col 6">
+                    <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}>Team Profiles Generator (CLI) </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/Team-Profiles"> Repo </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={TeamProfiles} className ="primaryPic1"></Image>
+                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, JQuery</div>
                 </div>
                 <br></br>  
-                <div className="col 6">
-                    <div style={{fontWeight: 'bold',fontSize: '25px'}}> Keep Austin Social </div>
+                <div style={{backgroundColor:' #ffa571', paddingTop:'25px', paddingBottom:'25px'}} className="col 6">
+                    <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}> Keep Austin Social </div>
                     <div><a style={{fontWeight: 'bold'}} href = "https://github.com/bcermak/KeepAustinSocial"> Repo </a> || <a style={{fontWeight: 'bold'}} href = "https://keepaustinsocial.herokuapp.com/"> Deployed </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={KeepAustinSocial}></Image>
+                    <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> HTML, CSS, Javascript, JQuery</div>
                 </div>
             </div>
           </div>  
