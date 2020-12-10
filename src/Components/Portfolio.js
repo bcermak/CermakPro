@@ -17,14 +17,14 @@ class Portfolio extends Component {
             <h2 style={{paddingBottom:'25px'}}>PROJECTS <i className="fas fa-toolbox"></i> <i className="fas fa-screwdriver"></i></h2>
             <div style={{backgroundColor:'yellow', paddingTop:'25px', paddingBottom:'25px'}} className="col 6">
                     <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}> Advensure </div>
-                    <div><a style={{color:'blue',fontWeight: 'bold'}} href = "https://github.com/bcermak/AdvenSure" rel="noreferrer" target="_blank"> Repo </a> || <a style={{color:'blue', fontWeight: 'bold'}} href = "https://advensure.herokuapp.com/" rel="noreferrer" target="_blank"> Deployed </a></div>
+                    <div><a style={{color:'blue',fontWeight: 'bold'}} href = "https://github.com/bcermak/AdvenSure" target="_blank" rel="noreferrer"> Repo </a> || <a style={{color:'blue', fontWeight: 'bold'}} href = "https://advensure.herokuapp.com/" target="_blank" rel="noreferrer"> Deployed </a></div>
                     <Image style ={{marginBottom:'8px', border:'solid black'}} src={Advensure}></Image>
                     <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> MongoDB Atlas, MongoDB/Mongoose, Heroku, React, APIs, Material-UI, Reactstrap, Axios, Express, DayJS, Concurrently, Passport, & Bcrypt</div>
                 </div>
                 <br></br>
             <div style={{ backgroundColor:' #ff7f68', paddingTop:'25px', paddingBottom:'25px'}} className= "col 6">
               <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}>Progressive Budget Tracker</div>
-              <div><a style={{color:'blue', fontWeight: 'bold'}} href = "https://github.com/bcermak/budgettracker" rel="noreferrer" target="_blank"> Repo </a> || <a style={{color:'blue', fontWeight: 'bold'}} href = "https://budgettrackerrrr.herokuapp.com" rel="noreferrer" target="_blank"> Deployed </a></div>
+              <div><a style={{color:'blue', fontWeight: 'bold'}} href = "https://github.com/bcermak/budgettracker" target="_blank" rel="noreferrer"> Repo </a> || <a style={{color:'blue', fontWeight: 'bold'}} href = "https://budgettrackerrrr.herokuapp.com" target="_blank" rel="noreferrer"> Deployed </a></div>
               <Image style ={{marginTop:'8px', border:'solid black'}} src={ProgressiveBudget} className ="primaryPic1"></Image>
               <div style={{color:'black'}}><span style={{color:'black', fontSize:'larger', fontWeight:'bolder'}}>Languages & Tools:</span> Javascript, Node.js, Express.js, MongoDB, Mongoose, & IndexedDB </div>
             </div>

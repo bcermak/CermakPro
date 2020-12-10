@@ -5,16 +5,10 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-      
-       var linkedin = this.props.data.linkedin
-       var project = this.props.data.project;
-       var github = this.props.data.github;
+
+      var github = this.props.data.github;
       var name = this.props.data.name;
       var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
     }
 
     return (
@@ -40,8 +34,8 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-               <a href="https://www.linkedin.com/in/brandon-cermak-ab4219121/"target="_blank" className="button btn"><i className="fa fa-linkedin"></i>LinkedIn</a>
-               <a href={github} target="_blank" className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               <a href="https://www.linkedin.com/in/brandon-cermak-ab4219121/"target="_blank" rel="noreferrer" className="button btn"><i className="fa fa-linkedin"></i>LinkedIn</a>
+               <a href={github} target="_blank" rel="noreferrer" className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
             </ul>
          </div>
       </div>
