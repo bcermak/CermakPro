@@ -14,7 +14,7 @@ class Portfolio extends Component {
       <section id="portfolio">
         <div style={{display: 'block'}}className= "container">
           <div className ="row projects">
-            <h2 style={{paddingBottom:'25px'}}>PROJECTS <i class="fas fa-toolbox"></i> <i class="fas fa-screwdriver"></i></h2>
+            <h2 style={{paddingBottom:'25px'}}>PROJECTS <i className="fas fa-toolbox"></i> <i className="fas fa-screwdriver"></i></h2>
             <div style={{backgroundColor:'yellow', paddingTop:'25px', paddingBottom:'25px'}} className="col 6">
                     <div style={{color:'black', fontWeight: 'bold',fontSize: '25px'}}> Advensure </div>
                     <div><a style={{color:'blue',fontWeight: 'bold'}} href = "https://github.com/bcermak/AdvenSure" rel="noreferrer" target="_blank"> Repo </a> || <a style={{color:'blue', fontWeight: 'bold'}} href = "https://advensure.herokuapp.com/" rel="noreferrer" target="_blank"> Deployed </a></div>

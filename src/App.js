@@ -20,6 +20,7 @@ class App extends Component {
 
     ReactGA.initialize('G-4KYP8VVVSD');
     ReactGA.pageview(window.location.pathname);
+    console.log(window.location.pathname)
 
   }
 
