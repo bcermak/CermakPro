@@ -372,11 +372,11 @@
 
 }
 
+@media only screen and (max-width: 420px) {
+   .social .btn:first-child{
+   margin: 0 auto;
+   margin-bottom: 10px;
+         
+   }
 
-
-
-
-
-
-
-
+}
